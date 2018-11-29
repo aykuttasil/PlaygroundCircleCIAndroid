@@ -5,6 +5,7 @@ apply plugin: 'io.fabric'
 
 android {
     compileSdkVersion 28
+    
     defaultConfig {
         applicationId "com.aykutasil.trycircleci"
         minSdkVersion 21
@@ -18,6 +19,7 @@ android {
         //ext.betaDistributionReleaseNotes = ""
         //ext.betaDistributionReleaseNotesFilePath="path/to/release_notes.txt"
     }
+
     buildTypes {
         release {
             minifyEnabled false
